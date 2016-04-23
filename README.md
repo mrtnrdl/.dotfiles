@@ -12,8 +12,7 @@ The dotfiles are managed with [gnu stow](http://www.gnu.org/software/stow/) (tha
 ## installation
     dnf -y install stow
 
-After that you have to navigate in your repo with the dotfiles. In my case this would be
-    cd /home/mrtn/.dotfiles
+After that you have to navigate in your repo with the dotfiles. In my case this would be */home/mrtn/.dotfiles*
 
 Then you can install the settings
     stow zsh
