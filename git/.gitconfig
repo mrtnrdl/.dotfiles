@@ -17,3 +17,5 @@
 	tool = auto
 [difftool]
 	prompt = false
+[push]
+	default = simple
