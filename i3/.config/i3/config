@@ -184,10 +184,13 @@ exec i3 --force-xinerama -V >>~/.i3/i3log 2>&1
 # set a wallpaper
 exec --no-startup-id feh --bg-center ~/Dropbox/Wallpaper/current.jpg
 
-# run unclutter on startup
-exec --no-startup-id unclutter 
-
 # AUTOSTART
 exec --no-startup-id dropbox start
+
+# workspace 10
 exec --no-startup-id i3-msg 'workspace 10; exec spotify'
 exec --no-startup-id i3-msg 'workspace 10; exec telegram'
+
+# workspace 5 
+exec --no-startup-id i3-msg 'workspace 5; exec steam'
+
