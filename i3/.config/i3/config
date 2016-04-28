@@ -163,8 +163,12 @@ client.focused_inactive #002b36 #073642 #839496 #073642
 client.unfocused        #002b36 #073642 #839496 #073642
 client.urgent           #002b36 #dc322f #fdf6e3 #002b36
 
-#set a wallpaper
+# force xinerama 
+exec i3 --force-xinerama -V >>~/.i3/i3log 2>&1
+
+# set a wallpaper
 exec --no-startup-id feh --bg-scale ~/Dropbox/Wallpaper/current.jpg
 
 # AUTOSTART
 exec --no-startup-id dropbox start
+exec --no-startup-id i3-msg 'workspace 10; exec spotify'
