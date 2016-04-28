@@ -186,11 +186,8 @@ exec --no-startup-id feh --bg-center ~/Dropbox/Wallpaper/current.jpg
 
 # AUTOSTART
 exec --no-startup-id dropbox start
+exec --no-startup-id redshift
 
 # workspace 10
 exec --no-startup-id i3-msg 'workspace 10; exec spotify'
-exec --no-startup-id i3-msg 'workspace 10; exec telegram'
-
-# workspace 5 
-exec --no-startup-id i3-msg 'workspace 5; exec steam'
 
