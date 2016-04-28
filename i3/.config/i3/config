@@ -156,6 +156,8 @@ bar {
       		inactive_workspace #073642 #002b36 #839496
       		urgent_workspace   #dc322f #dc322f #fdf6e3
         }
+	# Using custom i3status.conf
+	status_command i3status -c ~/.i3/i3status.conf  
 }
 
 client.focused          #002b36 #586e75 #fdf6e3 #268bd2
@@ -181,6 +183,9 @@ exec i3 --force-xinerama -V >>~/.i3/i3log 2>&1
 
 # set a wallpaper
 exec --no-startup-id feh --bg-scale ~/Dropbox/Wallpaper/current.jpg
+
+# run unclutter on startup
+exec --no-startup-id unclutter 
 
 # AUTOSTART
 exec --no-startup-id dropbox start
