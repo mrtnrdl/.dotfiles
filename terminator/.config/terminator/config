@@ -1,0 +1,29 @@
+[global_config]
+  always_split_with_profile = True
+  borderless = True
+  focus = mouse
+  title_inactive_bg_color = "#073642"
+  title_inactive_fg_color = "#c0bebf"
+  title_transmit_bg_color = "#1fbf21"
+  title_transmit_fg_color = "#0b3039"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_darkness = 0.9
+    background_image = None
+    background_type = transparent
+    cursor_color = "#0eff00"
+    cursor_shape = underline
+    custom_command = /bin/zsh
+    foreground_color = "#839496"
+    use_custom_command = True
