@@ -25,4 +25,5 @@ alias vi="vim"
 alias emacs="vim"
 alias nano="vim"
 
-
+# ls -lisa
+alias lisa="ls -lisa"
