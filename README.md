@@ -26,7 +26,7 @@ Now you are ready to roll. ;)
 
 ### vim
 1. Install [vundle](https://github.com/VundleVim/Vundle.vim)
-2. *vim +PluginInstall +qall
+2. *vim +PluginInstall +qall*
 
 ## explanations
 ### i3
