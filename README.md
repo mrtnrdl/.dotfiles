@@ -3,14 +3,18 @@ My personal dotfiles for my linux installations. Feel free to use them but bewar
 
 The repo is currently organized in the following way:
 - git: global git config
+- gtk: gtk configuration
 - i3: A tiling window manager
+- redshift: configuration file for redshift. relaxation for my eyes...
+- terminator: terminal emulator configuration. sleek and minimal.
+- vim: config for *v*i *im*proved.
 - zsh: zshell settings and aliases
-
 
 ## managing and syncing
 The dotfiles are managed with [gnu stow](http://www.gnu.org/software/stow/) (thanks @xero for pointing out that possibility). Gnu stow is a symlink farm manager.
 
 ## installation
+### stow
     dnf -y install stow
 
 After that you have to navigate in your repo with the dotfiles. In my case this would be */home/mrtn/.dotfiles*
@@ -18,7 +22,11 @@ After that you have to navigate in your repo with the dotfiles. In my case this 
 Then you can install the settings
     stow zsh
 
-That's it. 
+Now you are ready to roll. ;)
+
+### vim
+1. Install [vundle](https://github.com/VundleVim/Vundle.vim)
+2. *vim +PluginInstall +qall
 
 ## explanations
 ### i3
