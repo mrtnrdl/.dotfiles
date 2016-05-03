@@ -5,8 +5,9 @@ The repo is currently organized in the following way:
 - git: global git config
 - gtk: gtk configuration
 - i3: A tiling window manager
-- redshift: configuration file for redshift. relaxation for my eyes...
-- terminator: terminal emulator configuration. sleek and minimal.
+- redshift: shifting colors after sunset
+- terminator: terminal emulator configuration
+- tmux: terminal multiplexing
 - vim: config for *v*i *im*proved.
 - zsh: zshell settings and aliases
 
