@@ -29,6 +29,9 @@ Now you are ready to roll. ;)
 1. Install [vundle](https://github.com/VundleVim/Vundle.vim)
 2. *vim +PluginInstall +qall*
 
+### wakatime zsh plugin
+Check the official [documentation](https://wakatime.com/help/plugins/terminal). The plugin is maintained by [Bruce Li](https://github.com/wbinglee/). 
+
 ## explanations
 ### i3
 - The colors-section provides solarized colors to the window borders and the status bar.
