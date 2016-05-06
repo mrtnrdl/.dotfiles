@@ -6,7 +6,7 @@ ZSH_THEME="robbyrussell"
 
 # plugins
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-wakatime)
 
 # language
 export LC_COLLATE=en_US.UTF-8
