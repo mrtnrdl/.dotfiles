@@ -27,6 +27,7 @@ alias nano="vim"
 
 # ls -lisa
 alias lisa="ls -lisa"
+alias lsd="ls -d */"
 
 ## Locations
 # dotfile
