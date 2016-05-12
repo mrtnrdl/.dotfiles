@@ -9,7 +9,8 @@ alias intellij="/opt/idea-IU/bin/idea.sh"
 alias cls="clear"
 
 ## git
-alias gc="git commit -m"
+alias gc="git commit"
+alias gco="git checkout"
 alias gs="git status"
 alias gd="git diff"
 alias gf="git fetch"
@@ -18,6 +19,7 @@ alias gr="git rebase"
 alias gp="git push"
 alias gu="git unstage"
 alias gg="git graph"
+alias pull="git pull"
 
 ## safety first
 alias v="vim"
@@ -27,7 +29,7 @@ alias nano="vim"
 
 # ls -lisa
 alias lisa="ls -lisa"
-alias lsd="ls -d */"
+alias lsd="ls -ld */"
 
 ## Locations
 # dotfile
