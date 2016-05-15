@@ -20,6 +20,7 @@ alias gp="git push"
 alias gu="git unstage"
 alias gg="git graph"
 alias pull="git pull"
+alias gA="git add -A"
 
 ## safety first
 alias v="vim"
