@@ -39,3 +39,11 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+" Turn on syntax highlighting.
+syntax on
+
+" Disable Beep
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
+
