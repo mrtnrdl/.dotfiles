@@ -33,3 +33,9 @@ filetype plugin indent on    " required
 "
 " Disable folding for markdown files.
 let g:vim_markdown_folding_disabled = 1
+
+" Disable arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
