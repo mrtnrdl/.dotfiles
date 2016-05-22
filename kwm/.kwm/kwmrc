@@ -106,19 +106,19 @@ kwmc config add-role AXDialog iTerm2
 # Enable border for focused window
 kwmc config focused-border on
 kwmc config focused-border size 2
-kwmc config focused-border color FFBDD322
+kwmc config focused-border color 6495ed
 kwmc config focused-border radius 3
 
 # Enable border for marked window
 kwmc config marked-border on
 kwmc config marked-border size 2
-kwmc config marked-border color FFCC5577
+kwmc config marked-border color 6495ed
 kwmc config marked-border radius 6
 
 # Change border when prefix-key is active
 kwmc config prefix-border on
 kwmc config prefix-border size 2
-kwmc config prefix-border color FF458588
+kwmc config prefix-border color 00ced1
 kwmc config prefix-border radius 6
 
 ########  Default Keybinds ########
