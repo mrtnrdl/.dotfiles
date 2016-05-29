@@ -3,3 +3,10 @@ i3/.i3/i3log
 vim/.vim/.netrwhist
 vim/.vim/bundle/*
 zsh/.zsh/machinespecific.zsh
+weechat/.weechat/logs
+weechat/.weechat/weechat.log
+weechat/.weechat/weeget
+weechat/.weechat/xfer
+weechat/.weechat/irc.conf
+weechat/.weechat/sec.conf
+weechat/.weechat/jabber.conf
