@@ -2,7 +2,7 @@
 export ZSH=/home/mrtn/.oh-my-zsh
 
 # theme
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 # plugins
 # Add wisely, as too many plugins slow down shell startup.
