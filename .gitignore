@@ -12,3 +12,4 @@ weechat/.weechat/sec.conf
 weechat/.weechat/jabber.conf
 atom/.atom/.apm/.apmrc
 ssh/.ssh/id_rsa*
+ssh/.ssh/known_hosts
