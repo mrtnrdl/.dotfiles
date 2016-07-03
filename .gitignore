@@ -11,3 +11,4 @@ weechat/.weechat/irc.conf
 weechat/.weechat/sec.conf
 weechat/.weechat/jabber.conf
 atom/.atom/.apm/.apmrc
+ssh/.ssh/id_rsa*
