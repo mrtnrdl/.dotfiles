@@ -26,8 +26,10 @@
     background_darkness = 0.9
     background_image = None
     background_type = transparent
-    cursor_color = "#0eff00"
+    cursor_color = "#869600"
     cursor_shape = underline
     custom_command = /bin/zsh
+    font = Hack 10
     foreground_color = "#839496"
     use_custom_command = True
+    use_system_font = False
