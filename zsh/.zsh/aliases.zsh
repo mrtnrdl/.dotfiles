@@ -21,13 +21,17 @@ alias vi="vim"
 alias emacs="vim"
 alias nano="vim"
 
-# ls -lisa
+### ls -lisa
 alias lisa="ls -lisa"
 alias lsd="ls -ld */"
 
-# common typos
+### common typos
 alias cd..="cd .."
 
 ## Locations
-# dotfile
+### dotfile
 alias dot="cd ~/.dotfiles/"
+
+## networking
+### wifi list
+alias wifis="nmcli dev wifi list"
