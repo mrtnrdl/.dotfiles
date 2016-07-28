@@ -10,6 +10,7 @@ The repo is currently organized in the following way:
 - terminator: terminal emulator configuration
 - tmux: terminal multiplexing
 - vim: config for *v*i *im*proved.
+- weechat: A irc client for the command line
 - zsh: zshell settings and aliases
 
 ## managing and syncing
