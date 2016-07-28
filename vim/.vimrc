@@ -43,6 +43,10 @@ noremap <Right> <NOP>
 " Turn on syntax highlighting.
 syntax on
 
+" Turn on relative and absolute line numbering
+set number
+set relativenumber
+
 " Disable Beep
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
