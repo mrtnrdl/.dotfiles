@@ -177,6 +177,15 @@ workspace 8 output DVI-D-0
 workspace 9 output DVI-D-0 
 workspace 10 output DVI-D-0 
 
+# thinkpad brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% 
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% 
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+
 # force xinerama 
 exec i3 --force-xinerama -V >>~/.i3/i3log 2>&1
 
