@@ -12,6 +12,7 @@ alias gr="git rebase"
 alias gp="git push"
 alias gu="git unstage"
 alias gg="git graph"
+alias gl="git log --pretty --graph"
 alias pull="git pull"
 alias gA="git add -A"
 
