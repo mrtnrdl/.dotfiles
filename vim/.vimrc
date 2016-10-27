@@ -12,6 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'udalov/kotlin-vim'
 
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
