@@ -5,7 +5,7 @@ The repo is currently organized in the following way:
 - git: global git config
 - gtk: gtk configuration
 - i3: A tiling window manager
-- kwm: A tiling window manager for MacOS X
+- firefox: A custom startpage for firefox. 
 - redshift: shifting colors after sunset
 - terminator: terminal emulator configuration
 - tmux: terminal multiplexing
@@ -37,4 +37,6 @@ Check the official [documentation](https://wakatime.com/help/plugins/terminal). 
 ## explanations
 ### i3
 - The colors-section provides solarized colors to the window borders and the status bar.
-- wallpaper: I backup my wallpaper via dropbox. That way i can use it on every computer. If you want to change it - just replace *current.jpg* with your new desired wallpaper.
+- wallpaper: I backup my wallpaper via dropbox. That way i can use it on every computer. So to use my config, you have to change the path to the wallpaper accordingly.
+- The i3lock script sets a fixed image as lockscreen. To change that, you have to modify the path pointing to a picture on your machine.
+-
