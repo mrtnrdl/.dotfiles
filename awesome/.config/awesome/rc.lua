@@ -1,0 +1,1 @@
+../.dotfiles/awesome/.config/rc.lua
