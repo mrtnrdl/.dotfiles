@@ -23,7 +23,8 @@ alias emacs="vim"
 alias nano="vim"
 
 ### ls -lisa
-alias lisa="ls -lisa"
+alias l="ls -l"
+alias ll="ls -lisa"
 alias lsd="ls -ld */"
 
 ### common typos
