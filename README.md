@@ -38,4 +38,3 @@ Check the official [documentation](https://wakatime.com/help/plugins/terminal). 
 - The colors-section provides solarized colors to the window borders and the status bar.
 - wallpaper: I backup my wallpaper via dropbox. That way i can use it on every computer. So to use my config, you have to change the path to the wallpaper accordingly.
 - The i3lock script sets a fixed image as lockscreen. To change that, you have to modify the path pointing to a picture on your machine.
--
