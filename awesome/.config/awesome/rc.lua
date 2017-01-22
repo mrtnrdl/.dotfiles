@@ -428,7 +428,6 @@ awful.rules.rules = {
     -- Floating clients.
     { rule_any = {
         instance = {
-          "keepassx",	-- keepassx
           "copyq",  	-- Includes session name in class.
         },
         class = {
