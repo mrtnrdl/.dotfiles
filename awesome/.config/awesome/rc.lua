@@ -98,8 +98,8 @@ mylauncher = awful.widget.launcher({ image = beautiful.awesome_icon,
                                      menu = mymainmenu })
 
 -- Create Widgets for both Batteries.
-battery_2 = battery_widget({adapter = "BAT0", ac_prefix = "2nd: "})
-battery_1 = battery_widget({adapter = "BAT1", ac_prefix = "1st: "})
+battery_2 = battery_widget({adapter = "BAT0", ac_prefix = " 2nd:"})
+battery_1 = battery_widget({adapter = "BAT1", ac_prefix = " 1st:"})
 
 
 -- Menubar configuration
