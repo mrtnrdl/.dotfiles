@@ -34,7 +34,7 @@ bindsym $mod+q kill
 # start the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+space exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+space exec --no-startup-id rofi -show drun
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -111,10 +111,10 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # shutdown
-bindsym $mod+Shift+s exec ~/.dotfiles/i3/script/shutdown.sh
+bindsym $mod+Shift+s exec ~/.i3-script/shutdown.sh
 
 # lock screen
-bindsym $mod+l exec ~/.dotfiles/i3/script/lock.sh
+bindsym $mod+l exec ~/i3-script/lock.sh
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -196,5 +196,4 @@ exec --no-startup-id feh --bg-fill ~/data/Dropbox/Wallpaper/Nature/dark_forest.j
 exec --no-startup-id dropbox start
 exec --no-startup-id redshift
 exec --no-startup-id nm-applet
-
 
