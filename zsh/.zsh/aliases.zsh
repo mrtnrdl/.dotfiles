@@ -37,3 +37,7 @@ alias dot="cd ~/.dotfiles/"
 ## networking
 ### wifi list
 alias wifis="nmcli dev wifi list"
+
+## irc
+### setup ssh tunnel
+alias irc="~/.awesome-script/znc-uberspace-tunnel.sh && weechat"
