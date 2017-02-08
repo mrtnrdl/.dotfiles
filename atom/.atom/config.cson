@@ -2,6 +2,7 @@
   core:
     audioBeep: false
     destroyEmptyPanes: false
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"

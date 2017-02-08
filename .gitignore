@@ -13,3 +13,5 @@ weechat/.weechat/jabber.conf
 atom/.atom/.apm/.apmrc
 ssh/.ssh/id_rsa*
 ssh/.ssh/known_hosts
+ranger/.config/ranger/history
+ranger/.config/ranger/tagged
