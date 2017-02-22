@@ -53,3 +53,7 @@ set relativenumber
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
 
+" Indents
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
