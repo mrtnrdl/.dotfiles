@@ -23,6 +23,7 @@
 [plugins]
 [profiles]
   [[default]]
+    hide_titlebar = True
     background_color = "#002b36"
     background_darkness = 0.9
     background_image = None
