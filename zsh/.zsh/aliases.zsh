@@ -40,4 +40,4 @@ alias wifis="nmcli dev wifi list"
 
 ## irc
 ### setup ssh tunnel
-alias irc="~/.awesome-script/znc-uberspace-tunnel.sh && weechat"
+alias irc="~/bin/znc-uberspace-tunnel.sh && weechat"
