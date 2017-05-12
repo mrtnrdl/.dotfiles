@@ -1,1 +1,0 @@
-/home/mrtn/Code/awesome.battery-widget/battery-widget.lua
