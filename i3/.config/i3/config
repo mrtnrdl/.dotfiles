@@ -160,17 +160,17 @@ client.unfocused        #002b36 #073642 #839496 #073642
 client.urgent           #002b36 #dc322f #fdf6e3 #002b36
 
 # declare workspaces per output
-workspace 1 output DVI-I-1
-workspace 2 output DVI-I-1
-workspace 3 output DVI-I-1
-workspace 4 output DVI-I-1
-workspace 5 output DVI-I-1
+workspace 1 output DVI-D-1
+workspace 2 output DVI-D-1
+workspace 3 output DVI-D-1
+workspace 4 output DVI-D-1
+workspace 5 output DVI-D-1
 
-workspace 6 output DVI-D-0 
-workspace 7 output DVI-D-0 
-workspace 8 output DVI-D-0 
-workspace 9 output DVI-D-0 
-workspace 10 output DVI-D-0 
+workspace 6 output DVI-I-1 
+workspace 7 output DVI-I-1 
+workspace 8 output DVI-I-1 
+workspace 9 output DVI-I-1 
+workspace 10 output DVI-I-1 
 
 # thinkpad brightness
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
