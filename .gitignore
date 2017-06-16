@@ -12,6 +12,7 @@ weechat/.weechat/sec.conf
 weechat/.weechat/jabber.conf
 atom/.atom/*.out
 atom/.atom/.apm/.apmrc
+atom/.atom/github.cson
 ssh/.ssh/id_rsa*
 ssh/.ssh/known_hosts
 ranger/.config/ranger/history
