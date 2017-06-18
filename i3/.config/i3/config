@@ -182,6 +182,9 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 # force xinerama 
 exec i3 --force-xinerama -V >>~/.i3/i3log 2>&1
 
+# load nvidia settings
+exec --no-startup-id nvidia-settings --load-config-only
+
 # set a wallpaper
 exec --no-startup-id feh --bg-tile ~/data/Dropbox/Wallpaper/RepetitivePatterns/v2eRIdr.png
 
