@@ -43,6 +43,6 @@ alias wifis="nmcli dev wifi list"
 alias irc="~/bin/znc-uberspace-tunnel.sh && weechat"
 
 ## archbook-specific
-alias lighter="light -A 10"
+alias brighter="light -A 10"
 alias darker="light -U 10"
 alias brightness="light -G"
