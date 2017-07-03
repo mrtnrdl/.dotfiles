@@ -163,7 +163,7 @@ client.urgent           #002b36 #dc322f #fdf6e3 #002b36
 exec i3 --force-xinerama -V >>~/.i3/i3log 2>&1
 
 # set a wallpaper
-exec --no-startup-id feh --bg-fill ~/data/Dropbox/Wallpaper/Nature/CrnqFxK.jpg
+exec --no-startup-id feh --bg-fill ~/data/Dropbox/Wallpaper/RepetitivePatterns/v2eRIdr.png
 
 # AUTOSTART
 exec --no-startup-id dropbox start
