@@ -23,7 +23,7 @@ font -*-gohufont-small-r-normal-*-14-100-100-100-*-*-iso10646-1
 # font, it doesn’t scale on retina/hidpi displays.
 
 # gaps
-gaps inner 3
+gaps inner 4
 gaps outer 2
 
 # Use Mouse+$mod to drag floating windows to their wanted position
