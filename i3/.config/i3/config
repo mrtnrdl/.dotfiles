@@ -22,6 +22,10 @@ font -*-gohufont-small-r-normal-*-14-100-100-100-*-*-iso10646-1
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
+# gaps
+gaps inner 3
+gaps outer 2
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
