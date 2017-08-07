@@ -1,0 +1,10 @@
+#!/bin/bash
+
+PATH=$1;
+CURL='/usr/bin/curl';
+ARGS='-sT- https://p.iotek.org';
+
+echo "File " $PATH " gets uploaded to p.iotek.org";
+
+#upload
+$CURL $ARGS < $PATH 
