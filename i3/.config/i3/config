@@ -26,6 +26,8 @@ font -*-gohufont-small-r-normal-*-14-100-100-100-*-*-iso10646-1
 gaps inner 4
 gaps outer 2
 
+smart_gaps on
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
