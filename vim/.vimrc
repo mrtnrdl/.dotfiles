@@ -15,6 +15,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'udalov/kotlin-vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'klen/python-mode'
+Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -58,3 +59,7 @@ autocmd GUIEnter * set visualbell t_vb=
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+
+" powerline
+set laststatus=2
+let g:Powerline_symbols = 'fancy'
