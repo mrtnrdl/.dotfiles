@@ -2,7 +2,7 @@
 export ZSH=/home/mrtn/.oh-my-zsh
 
 # theme
-ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # plugins
 # Add wisely, as too many plugins slow down shell startup.
