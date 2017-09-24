@@ -1,1 +1,3 @@
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time time)
+
