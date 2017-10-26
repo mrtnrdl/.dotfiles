@@ -4,6 +4,9 @@ export ZSH=/home/mrtn/.oh-my-zsh
 # theme
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
+# tmux settings
+export TERM="xterm-256color"
+
 # plugins
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-wakatime)
