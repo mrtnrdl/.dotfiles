@@ -27,6 +27,11 @@ alias l="ls -l"
 alias ll="ls -lisa"
 alias lsd="ls -ld */"
 
+## close shell vim-like
+alias :wq="exit"
+alias :q="exit"
+alias q="exit"
+
 ### common typos
 alias cd..="cd .."
 
