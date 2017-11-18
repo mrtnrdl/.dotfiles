@@ -43,6 +43,9 @@ bindsym $mod+space exec --no-startup-id rofi -show run
 # start rofi window 
 bindsym $mod+w exec --no-startup-id rofi -show 
 
+# start rofi ssh
+bindsym $mod+s exec --no-startup-id rofi -show ssh
+
 # move focus
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down

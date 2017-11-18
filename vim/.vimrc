@@ -17,6 +17,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'klen/python-mode'
 Plugin 'gilsondev/searchtasks.vim'
 Plugin 'tpope/vim-commentary'
+Plugin 'avakhov/vim-yaml'
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " " All of your Plugins must be added before the following line
