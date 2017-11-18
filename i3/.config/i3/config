@@ -198,7 +198,6 @@ exec --no-startup-id nvidia-settings --load-config-only
 exec --no-startup-id feh --bg-tile ~/data/Dropbox/Wallpaper/RepetitivePatterns/inflicted.png
 
 # AUTOSTART
-exec --no-startup-id dropbox start
 exec --no-startup-id redshift
 exec --no-startup-id nm-applet
 exec --no-startup-id compton -b 
