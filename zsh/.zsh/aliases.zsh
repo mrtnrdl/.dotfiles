@@ -1,6 +1,5 @@
 ## abreviations
 alias cls="clear"
-alias update="pacaur -Syu"
 
 ## git
 alias gc="git commit"
