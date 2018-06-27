@@ -47,5 +47,9 @@ alias wifis="nmcli dev wifi list"
 ### setup ssh tunnel
 alias irc="~/bin/znc-uberspace-tunnel.sh && weechat"
 
-## blackarch tools
+## Pentest stuff
+### docker container aliases
+alias dstego="docker run -it --rm -v $(pwd)/data:/data dominicbreuker/stego-toolkit /bin/bash"
+
+### metasploit 
 alias metasploit="msfconsole"
