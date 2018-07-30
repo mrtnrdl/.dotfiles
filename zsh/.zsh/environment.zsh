@@ -9,7 +9,7 @@ export TERM="xterm-256color"
 
 # plugins
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-wakatime)
+plugins=(git globalias zsh-wakatime)
 
 # language
 export LC_COLLATE=en_US.UTF-8
