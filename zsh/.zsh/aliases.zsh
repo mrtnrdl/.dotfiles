@@ -43,9 +43,3 @@ alias dot="cd ~/.dotfiles/"
 ### wifi list
 alias wifis="nmcli dev wifi list"
 
-## irc
-### setup ssh tunnel
-alias irc="~/bin/znc-uberspace-tunnel.sh && weechat"
-
-## blackarch tools
-alias metasploit="msfconsole"

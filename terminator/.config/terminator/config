@@ -3,10 +3,12 @@
   borderless = True
   focus = mouse
   inactive_color_offset = 0.656565656566
+  title_font = GohuFont Powerline Medium 10
   title_inactive_bg_color = "#18373e"
   title_inactive_fg_color = "#c0bebf"
   title_transmit_bg_color = "#2aa198"
   title_transmit_fg_color = "#002b36"
+  title_use_system_font = False
 [keybindings]
   go_down = None
   go_left = None
@@ -31,7 +33,7 @@
     cursor_color = "#869600"
     cursor_shape = underline
     custom_command = /bin/zsh
-    font = Gohu GohuFont 10
+    font = GohuFont Powerline Medium 11
     foreground_color = "#839496"
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     scrollback_infinite = True
