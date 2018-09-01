@@ -58,3 +58,7 @@ alias dot="cd ~/.dotfiles/"
 ### wifi list
 alias wifis="nmcli dev wifi list"
 
+## misc
+### weather
+alias wetter="curl http://wttr.in/nuernberg"
+alias weather="curl http://wttr.in/nuernberg"
