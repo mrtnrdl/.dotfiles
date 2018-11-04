@@ -1,0 +1,40 @@
+[global_config]
+  title_inactive_bg_color = "#4C566A"
+  title_inactive_fg_color = "#D8DEE9"
+  title_receive_bg_color = "#8FBCBB"
+  title_receive_fg_color = "#2E3440"
+  title_transmit_bg_color = "#88C0D0"
+  title_transmit_fg_color = "#2E3440"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_darkness = 0.67
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#869600"
+    cursor_shape = underline
+    custom_command = /bin/zsh
+    font = TerminessTTF Nerd Font Medium 11
+    foreground_color = "#839496"
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_infinite = True
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+    use_theme_colors = True
+  [[nord]]
+    background_color = "#2E3440"
+    cursor_color = "#D8DEE9"
+    foreground_color = "#D8DEE9"
+    palette = "#3B4252:#BF616A:#A3BE8C:#EBCB8B:#81A1C1:#B48EAD:#88C0D0:#E5E9F0:#4C566A:#BF616A:#A3BE8C:#EBCB8B:#81A1C1:#B48EAD:#8FBCBB:#ECEFF4"

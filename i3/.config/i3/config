@@ -162,19 +162,6 @@ client.focused_inactive #002b36 #073642 #839496 #073642
 client.unfocused        #002b36 #073642 #839496 #073642
 client.urgent           #002b36 #dc322f #fdf6e3 #002b36
 
-# declare workspaces per output
-workspace 1 output HDMI-0 
-workspace 2 output HDMI-0 
-workspace 3 output HDMI-0
-workspace 4 output HDMI-0
-workspace 5 output HDMI-0
-
-workspace 6 output DVI-I-1 
-workspace 7 output DVI-I-1 
-workspace 8 output DVI-I-1 
-workspace 9 output DVI-I-1 
-workspace 10 output DVI-I-1 
-
 # thinkpad brightness
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
@@ -191,7 +178,7 @@ exec i3 --force-xinerama -V >>~/.i3/i3log 2>&1
 exec --no-startup-id nvidia-settings --load-config-only
 
 # set a wallpaper
-exec --no-startup-id feh --bg-tile ~/data/Dropbox/Wallpaper/RepetitivePatterns/inflicted.png
+exec --no-startup-id feh --bg-tile /home/mrtn/Pictures/wallpapers/parrot-wallpapers/backgrounds/grid.jpg 
 
 # AUTOSTART
 exec --no-startup-id redshift
